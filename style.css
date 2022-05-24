@@ -1,0 +1,114 @@
+:root{
+    --lighter-font: rgb(128, 128, 128);
+}
+    
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:  hsl(225, 100%, 94%);
+    text-align: center;
+}
+
+
+.container{
+    background-color: white;
+    width: 30%;
+    height: 60%;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero-banner{
+    width: 100%;
+}
+
+.container h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.description{
+  color: var(--lighter-font);  
+  margin: 20px;  
+}
+
+.pricing-wrapper{
+    background-color: hsl(225, 100%, 94%);
+    margin: 10px 50px;
+    width: 75%;
+    height: 80px;
+    text-align: center;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 30px auto auto; 
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-wrapper img{
+    position: relative;
+    right: 30px;
+}
+
+.pricing-wrapper p{
+    position: relative;
+    right: 20px;
+}
+
+.plan-type{
+    font-weight: 900;
+}
+
+.price{
+    color: var(--lighter-font);
+}
+
+.pricing-wrapper a{
+    position: relative;
+    left: 20px;
+    font-size: 13px;
+    color:hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+button{
+    width: 75%;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    margin: 10px 30px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.cancel-order{
+    display: block;
+    color: var(--lighter-font);
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
